@@ -1,0 +1,97 @@
+/* general style */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 10/16 = 0.625 * 100 */
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+em {
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.container {
+  max-width: 120rem;
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 4.8rem;
+  padding: 2.4rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin-right: 1.2rem;
+}
+
+.main-nav {
+  font-size: 2rem;
+  padding: 2.4rem 4.8rem;
+  margin-bottom: 4.8rem;
+}
+
+/* Left container */
+.backpack,
+.new-backpack {
+  width: 90%;
+}
+
+/* Middle Container */
+.middle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.heading-box {
+  background-color: #b0ada3;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  color: #fff;
+  margin-bottom: 3.6rem;
+  padding: 3.6rem 1.2rem;
+  text-align: center;
+}
+
+.hero-heading {
+  font-size: 3.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
+.hero-text {
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+.btn {
+  border-radius: 1rem;
+  font-size: 2.4rem;
+  padding: 1.2rem 2.4rem;
+}
+
+/* Right container */
+
+.right-container {
+  text-align: right;
+}
+
+.new-backpack {
+  border-radius: 9px;
+}
